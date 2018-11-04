@@ -26,7 +26,6 @@ public class Main {
 
         for (String p : args) {
             File csvFile = getFile(p, fs);
-            String rawSchema = getSchema(csvFile);
 
         }
     }
